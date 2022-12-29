@@ -21,6 +21,15 @@ namespace BinarySearchTree_085
             rightchild = r;
         }
     }
+    /* A node class consist of three things, the information, refrences to the right child, and refrences to the left child */
+    class BinaryTree
+    {
+        public Node ROOT;
+        public BinaryTree()
+        {
+            ROOT = null; /*Initializing ROOT to null*/
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
