@@ -13,6 +13,13 @@ namespace BinarySearchTree_085
         public Node rightchild;
 
         //Construcktor for the node class
+
+        public Node(string i, Node l, Node r)
+        {
+            info = i;
+            leftchild = l;
+            rightchild = r;
+        }
     }
     internal class Program
     {
